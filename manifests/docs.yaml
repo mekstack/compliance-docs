@@ -40,7 +40,7 @@ spec:
         - sh
         - -c
         - |
-          git clone https://github.com/mekstack/docs
+          git clone https://github.com/mekstack/compliance-docs
           cd docs
           tox
           cp -r build/* /html/
