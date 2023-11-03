@@ -41,7 +41,7 @@ spec:
         - -c
         - |
           git clone https://github.com/mekstack/compliance-docs
-          cd docs
+          cd compliance-docs
           tox
           cp -r build/* /html/
         volumeMounts:
